@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Capsules Assignment</title>
   </head>
   <body>
@@ -12,20 +12,26 @@
       <div class="header">
         <h1>Bootcamp Capsules</h1>
       </div>
-      <div class="main-header">
-        <div class="header-list">
-          <div class="table-header">
-            <div class="id-header">ID</div>
-            <div class="first-name-header">First Name</div>
-            <div class="last-name-header">Last Name</div>
-            <div class="gender-header">Gender</div>
-            <div class="age-header">Age</div>
-            <div class="city-header">City</div>
-            <div class="hobby-header">Hobby</div>
-            <div class="capsule-header">Capsule</div>
-          </div>
-        </div>
-      </div>
+      <form id="search-bar">
+        <button class="btn">Search</button>
+        <input
+          type="text"
+          name="search"
+          class="input-search"
+          placeholder="search student"
+        />
+        <select name="category" class="dropdown">
+          <option value="selectOpt">Select Category</option>
+          <option value="byFirst">First Name</option>
+          <option value="byLast">Last Name</option>
+          <option value="byGender">Gender</option>
+          <option value="byAge">Age</option>
+          <option value="byCity">City</option>
+          <option value="byHobby">Hobby</option>
+          <option value="byCapsule">Capsule</option>
+        </select>
+      </form>
+      <div class="table"></div>
     </div>
     <script src="app.js"></script>
   </body>

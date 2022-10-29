@@ -1,5 +1,37 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container .header {
+  width: 100%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem;   
+}
+#search-bar {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.cell {
+    width: 15%;
+    text-align: right;
+}
+
+h1{
+   align-items: center;
+   
 }
